@@ -79,19 +79,26 @@ img.circle {
 #page {
     background-color:#fff
 }
+
 /* Variables de diseño configurables */
 :root {
     --primary-color: #2c3e50;    /* Color del eje y los títulos */
+    --background-color: #eee;    /* Bacground sección */
+    --line-color: #cc0000;       /* LINE vertical */
     --accent-color: #3498db;     /* Color de los marcadores y fechas */
     --bg-card: #ffffff;          /* Fondo de las tarjetas */
     --text-dark: #333333;        /* Color del texto */
     --border-radius: 6px;
 }
 
+#timeliner {
+    min-width:100%!important;
+}
+
 .cv-timeline-container {
     width: 100%;
-    padding: 40px 0;
-    background-color: #f8f9fa;
+    padding: 33px 0;
+    background-color: var(--background-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -114,7 +121,7 @@ img.circle {
     content: '';
     position: absolute;
     width: 4px;
-    background-color: var(--primary-color);
+    background-color: var(--line-color);
     top: 0;
     bottom: 0;
     left: 50%;
