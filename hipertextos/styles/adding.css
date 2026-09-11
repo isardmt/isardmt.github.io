@@ -101,6 +101,7 @@ main {
 }
 
 body {
+    background-color:#1c1c1c;
     -moz-hyphens: none;
     -ms-hyphens: none;
     -webkit-hyphens: none;
@@ -861,7 +862,7 @@ img.dialog-svg {
 }
 
 #page-footer {
-    background: #222;
+    background: #1c1c1c;
     color: #999;
     position: fixed;
     box-shadow: inset 0 0 62px rgba(0, 0, 0, .32);
@@ -869,7 +870,7 @@ img.dialog-svg {
     z-index: 0;
     width: 100%;
     font-size:1.2em;
-    padding:12px;
+    padding:19px;
     max-height:369px !important
 }
 
@@ -954,41 +955,31 @@ a.web-img :hover {
     padding-right:3px
 }
 
-em small #go-up {
-    border: thin solid rgba(100, 100, 100, .2) !important;
-    padding: 12px;
-    border-radius: 50%;
-    margin-bottom:-15px
-}
-
-em small #go-up:hover {
-    background:rgba(0, 0, 0, .3)
-}
-
 #page-footer #follows a {
     font-weight: 400;
-    font-size: 1.1em !important;
+    font-size: 1.3em !important;
     line-height:.1em
 }
 
 #page-footer #follows a b {
     font-weight: 200;
-    letter-spacing:-.05em
+    letter-spacing:-.025em
 }
 
 #page-footer #g-text {
-    font-size:.75em
+    font-size:.9em;
+    line-height:1.6em;
 }
 
 #autoria {
-    font-size: 16px;
+    font-size: 19px;
     border-top: thin solid #333;
     padding-top:9px
 }
 
 #autoria b {
-    font-weight: 400;
-    padding-right:15px
+    font-weight: 800;
+    padding-right:16px
 }
 
 #autoria a {
