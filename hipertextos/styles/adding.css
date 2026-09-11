@@ -47,7 +47,7 @@
 }
 
 #blured, #coffee, #dialog em a, #llicencia, #page-footer #follows a, #page-footer #g-text, #page-nav, #top-ilustration div, #web-music em a:hover, .rights#dialog dialog label {
-    color:var(--color-grey)
+    color:var(--color-softgrey)
 }
 
 #brander p, #coffee p, #glassed, body {
@@ -62,14 +62,14 @@ header {
 }
 #site-nav a{
     color:rgba(255, 255, 255, .69)!important;
-    font-size: 19px!important
+    font-size: 21px!important
 }
 #site-nav a:hover {
     color:rgba(255, 255, 255, 1)!important;
 }
 img.nav-logo {
     padding:3px!important;
-    opacity:1!important;
+    filter:invert(1%);
 }
 .lines {
     background: rgba(69, 69, 69, .12) !important;
@@ -863,9 +863,8 @@ img.dialog-svg {
 
 #page-footer {
     background: #1c1c1c;
-    color: #999;
     position: fixed;
-    box-shadow: inset 0 0 62px rgba(0, 0, 0, .32);
+    box-shadow: inset 0 0 62px rgba(0, 0, 0, .32),inset 0 0 32px rgba(0, 0, 0, .62),, 0 0 32px rgba(0, 0, 0, .92);
     bottom: 0;
     z-index: 0;
     width: 100%;
