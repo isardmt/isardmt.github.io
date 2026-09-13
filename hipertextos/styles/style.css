@@ -59,11 +59,7 @@ ins, nav a:hover, nav label:hover, u {
 }
 
 *, :focus, :hover, :hover:after, :hover:before, :target {
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-    transition:1s
+
 }
 
 ::-moz-selection {
