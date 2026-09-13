@@ -1,7 +1,7 @@
 ---
-layout: gallery
-title: Portfoli
-permalink: /portfoli/
+layout: gallerias
+title: Galeria
+permalink: /galeria/
 galleria: true
 ---
 
@@ -13,7 +13,7 @@ galleria: true
 	{% assign image_files = site.static_files | where: "image", true %}
 	{% for image in image_files %}
 	<article>
-    	<a href="{{ site.baseurl }}/assets/creations/{{ image.name }}" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/creations/{{ image.name }}" alt="il·lustració"></a>
+    	<a href="{{ site.baseurl }}/assets/creations/{{ image.name }}" data-lightbox><img class="imagens" src="{{ site.baseurl }}/assets/creations/{{ image.name }}" alt="il·lustració"></a>
 	</article>
 	{% endfor %}
 			</section>
