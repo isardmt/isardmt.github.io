@@ -5,6 +5,17 @@
     -o-transition: 0s;
     transition:0s
 }
+#cover-front {
+    color:var(--color-white);
+}
+#cover-front {
+    text-align: left;
+    padding-left: 6px;
+}
+#cover-front h4, #cover-front img {
+    text-align: right;
+    padding-right: 6px;
+}
 #glass-front a h5:hover, #glassed, #page-header.vamos, #web-branding h1 {
     color:var(--color-white)
 }
