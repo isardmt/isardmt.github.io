@@ -82,8 +82,8 @@ img.circle {
 
 /* Variables de diseño configurables */
 :root {
-    --primary-color: #2c3e50;    /* Color del eje y los títulos */
-    --background-color: #eee;    /* Bacground sección */
+    --primary-color: #222;    /* Color del eje y los títulos */
+    --background-color: #ddd;    /* Bacground sección */
     --line-color: #cc0000;       /* LINE vertical */
     --accent-color: #3498db;     /* Color de los marcadores y fechas */
     --bg-card: #ffffff;          /* Fondo de las tarjetas */
@@ -132,7 +132,7 @@ img.circle {
 .timeline-block {
     position: relative;
     width: 50%;
-    padding: 10px 40px;
+    padding: 0px 30px;
     box-sizing: border-box;
 }
 
@@ -163,37 +163,38 @@ img.circle {
     background-color: var(--bg-card);
     position: relative;
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
 }
 
 .timeline-tag {
     display: inline-block;
-    padding: 4px 12px;
-    background-color: var(--accent-color);
-    color: #fff;
-    font-size: 0.75rem;
+    color: var(--accent-color);
+    font-size: 1rem;
     font-weight: bold;
-    border-radius: 20px;
-    margin-bottom: 12px;
+    margin: -6px 0;
 }
+.block-left .timeline-tag { float:right; }
+.block-right .timeline-tag { float:left; }
+.block-left .timeline-card-content  { text-align: left; }
+.block-right .timeline-card-content { text-align: right; }
 
 .timeline-card-content h3 {
-    margin: 0 0 6px 0;
+    margin: -24px 0 3px 0;
     color: var(--primary-color);
-    font-size: 1.25rem;
+    font-size: 1.3rem;
 }
 
 .timeline-card-content h4 {
-    margin: 0 0 12px 0;
+    margin: 0 0 2px 0;
     color: #7f8c8d;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
 .timeline-card-content p {
     margin: 0;
     color: var(--text-dark);
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 
