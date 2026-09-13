@@ -563,7 +563,7 @@ figure em a {
 }
 
 .gallerist #isotipos h3, .gallerist #layout h3, .gallerist #paints h3 {
-    text-align: right;
+    text-align: center;
     font-size: 32px;
     color: #777;
     line-height:1em
