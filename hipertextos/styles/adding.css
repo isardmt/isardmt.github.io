@@ -1060,6 +1060,11 @@ a.web-img :hover {
     .text-slider h2 {
         font-size:48px
     }
+    .listed section {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count:3
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1069,6 +1074,11 @@ a.web-img :hover {
 
     .text-slider h2 div span {
         font-size:45px
+    }
+    .listed section {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count:2
     }
 }
 
