@@ -11,10 +11,15 @@
 #cover-front {
     text-align: left;
     padding-left: 6px;
+    line-height: 1.8em ;
 }
-#cover-front h4, #cover-front img {
-    text-align: right;
-    padding-right: 6px;
+#cover-front p {
+    line-height: 1.6em ;
+}
+#cover-front figure {
+    text-align: right;margin-top:12px;
+    filter: invert(100%);
+    padding-right: 2em;
 }
 #glass-front a h5:hover, #glassed, #page-header.vamos, #web-branding h1 {
     color:var(--color-white)
