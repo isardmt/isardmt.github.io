@@ -17,7 +17,9 @@
     font-size:1.2em;
     line-height: 1.6em ;
 }
-
+#cover-front b {
+    font-size:1.2em;
+}
 #cover-front figure {
     text-align: right;margin-top:12px;
     filter: invert(100%);
