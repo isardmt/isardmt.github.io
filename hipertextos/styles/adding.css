@@ -13,9 +13,11 @@
     padding-left: 6px;
     line-height: 1.8em ;
 }
-#cover-front p {
+#cover-front p, #cover-front a {
+    font-size:1.2em;
     line-height: 1.6em ;
 }
+
 #cover-front figure {
     text-align: right;margin-top:12px;
     filter: invert(100%);
