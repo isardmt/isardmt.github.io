@@ -503,6 +503,9 @@ section.cover-justify h5 {
     text-align: right;
     margin:0 !important
 }
+section.cover-justify {
+    text-align: center;
+}
 
 .cover#page-header {
     background-color:var(--color-black)
@@ -893,7 +896,7 @@ img.dialog-svg {
 }
 
 #coffee.fronter {
-    background:linear-gradient(white, #e5e5e5)
+    background:linear-gradient(#f5f5f5, #fff);
 }
 
 #coffee.fronter em label:hover {
@@ -909,7 +912,7 @@ img.dialog-svg {
     width: 100%;
     font-size:1.2em;
     padding:19px;
-    max-height:369px !important
+    max-height:360px !important
 }
 
 #page-footer em small a {
@@ -925,7 +928,7 @@ img.dialog-svg {
 
 #web-credits label svg {
     max-width: 72px;
-    margin: 10px;
+    margin: 1px;
     opacity: .6;
     border-radius:50%
 }
@@ -939,7 +942,7 @@ img.dialog-svg {
 #page-footer p a {
     padding: 4px;
     letter-spacing: .032em;
-    font-size:1.25em
+    font-size:1.em
 }
 
 .listed .img-icon {
