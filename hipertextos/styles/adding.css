@@ -13,12 +13,22 @@
     padding-left: 6px;
     line-height: 1.8em ;
 }
-#cover-front p, #cover-front a {
-    font-size:1.2em;
+#cover-front p {
+    font-size:1.1em; 
     line-height: 1.6em ;
+    font-weight:normal;
 }
 #cover-front b {
-    font-size:1.2em;
+    font-size:1em;
+    font-weight:lighter;
+    line-height: 1.6em ;
+}
+#cover-front a {
+    font-size:1.1em;
+    color:var(--color-link)!important;
+}
+#cover-front a:hover {
+    color:#5c9df6 !important;
 }
 #cover-front figure {
     text-align: right;margin-top:12px;
