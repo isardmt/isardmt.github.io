@@ -62,8 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   	</script>
   	{% endif %}
     {% include favicons.html %}
-	<style type="text/css">.preload {display: none;} #site-nav {font-family: "San Francisco"} body {overflow: hidden;}
-	#preloader { position: fixed;top:0; left:0;right:0; bottom:0;background: #000;z-index: 100;}#loader {width: 100px;height: 100px;position: absolute;left:50%; top:50%;background: url(../hipertextos/images/loading.gif) no-repeat center 0;margin:-50px 0 0 -50px;}
+	<style type="text/css">#site-nav {font-family: "San Francisco"}}
 	</style>
 	
   	{% if page.parallax %}
@@ -124,12 +123,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     		});
 		});
   	</script>
-	<script>
-	$(window).load(function() {
-		$('#preloader').fadeOut('slow');
-		$('body').css({'overflow':'visible'});
-	})
-	</script>
 
     {% include analytics.html %}
       
