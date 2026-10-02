@@ -7,6 +7,7 @@
 }
 .error#page-main {
     background-image: url(/images/error.jpg);
+    height:1100px;
     image-rendering: crisp-edges;
     background-position: top center;
     background-attachment: fixed;
