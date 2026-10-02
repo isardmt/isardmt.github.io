@@ -24,35 +24,23 @@
 	<!-- Page content -->
 	<div class="page cover-page" id="page">
 	{% include partials/navigation/nav-about.html %}
-	{% include partials/head-about.html %}
-		<main id="page-main">
+<header id="page-header" class="cover">
+			<h1 itemprop="name" class="anm-moveFromBottomFade delay-200 slow">{{ site.name }}</h1>
+	</header>
+<main id="page-main">
 			<div>
 			<div itemscope itemtype="http://schema.org/Person">
 				<section class="anm-moveFromBottomFade delay-200">
-					<h1 class="anm-scaleUpCenter delay-400">
-					<img src="https://avatars0.githubusercontent.com/u/9498876?s=400&u=aee7e89c69bf3dee9903bc85ec6aa33985148325&v=4" id="avatar" class="anm-scaleUp delay-400" rel="Avatar de Isard Miralles">
-					<span itemprop="name">Isard Miralles </span></h1>
+					<h1 class="anm-scaleUpCenter delay-400"><span itemprop="name">{{ site.name }}</span></h1>
 					{{ content }}
-					<br>
-					<strong>
-						<em class="anm-scaleUp delay-400"><a href="mailto:isardmt@gmail.com" itemprop="email">isardmt@gmail.com</a></em>
-						<span itemprop="telephone"><em class="anm-scaleUp delay-600"><a href="tel:+34 {{ site.phone }}"><i class="icon-mobile"></i>658973617</a></em></span>
-					</strong>
 					<br>
 				</section>
 				<hr>								
 			</div>
-			</div>
-			{% include partials/credits.html %}
-    		{% include partials/coffee.html %}   		
+			</div>		
 		</main>
 		{% include partials/footer.html %}
-	</div><!-- /#page -->
-	
-		<!-- Out of page
-		================================================== -->	
-    {% include partials/dialog.html %}  
-    {% include partials/rights.html %}  
+	</div><!-- /#page --> 
 
     <!-- Scripts
     ================================================== -->
