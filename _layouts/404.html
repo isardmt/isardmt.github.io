@@ -24,14 +24,14 @@
 	<!-- Page content -->
 	<div class="page cover-page" id="page">
 	{% include partials/navigation/nav-about.html %}
-<header id="page-header" class="cover">
-			<h1 itemprop="name" class="anm-moveFromBottomFade delay-200 slow">{{ site.name }}</h1>
+<header id="page-header" class="slim">
+			<h1 class="anm-moveFromBottomFade delay-200 slow">{{ page.name }}</h1>
 	</header>
 <main id="page-main">
 			<div>
 			<div itemscope itemtype="http://schema.org/Person">
 				<section class="anm-moveFromBottomFade delay-200">
-					<h1 class="anm-scaleUpCenter delay-400"><span itemprop="name">{{ site.name }}</span></h1>
+					<h1 class="anm-scaleUpCenter delay-400"><span itemprop="name">{{ page.name }}</span></h1>
 					{{ content }}
 					<br>
 				</section>
