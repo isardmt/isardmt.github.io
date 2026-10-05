@@ -2991,3 +2991,16 @@ nav strong label mark {
 .symbol-zodiac-piscis:before {
     content: '\2653'
 }
+
+/* CENTRADO GLOBAL DEL CONTENIDO SIN MODIFICAR EL HTML */
+
+#page-main,
+#page-nav,
+#page-section,
+#site-header,
+#site-nav,
+#page-footer,
+[id*=page-section] {
+    padding-left: max(16px, calc((100% - var(--page-size)) / 2));
+    padding-right: max(16px, calc((100% - var(--page-size)) / 2));
+}
