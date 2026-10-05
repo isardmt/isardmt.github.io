@@ -139,7 +139,7 @@ main {
 }
 
 .parallax {
-    background-position: top auto;
+    background-position: top center;
     -webkit-transition: none;
     -moz-transition: none;
     -ms-transition: none;
@@ -154,7 +154,7 @@ body {
     -webkit-hyphens: none;
     -o-hyphens: none;
     hyphens: none;
-    word-wrap:none
+    word-wrap:normal
 }
 
 p, ul {
@@ -163,9 +163,10 @@ p, ul {
 }
 
 #page-header.cover, #page-header.vamos {
-    background-position: fixed;
+    background-position: center;
+    background-attachment: fixed;
     z-index: 2;
-    background-size: cover fixed;
+    background-size: cover;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -1223,7 +1224,7 @@ a.web-img :hover {
     }
 }
 
-@media only screen and (orientation: landscape) and(max-width: 1024px) {
+@media only screen and (orientation: landscape) and (max-width: 1024px) {
     #page-header.cover {
         padding-top:32px !important
     }
@@ -1242,7 +1243,7 @@ a.web-img :hover {
     }
 }
 
-@media only screen and (orientation: landscape) and(max-width: 568px) {
+@media only screen and (orientation: landscape) and (max-width: 568px) {
     #page-header.cover {
         padding-top:12px !important
     }
@@ -1361,7 +1362,7 @@ a.web-img :hover {
     }
 
     aside.thumb-3 {
-        margin-top:1.em
+        margin-top:1em
     }
 
     aside.thumb-3 a {
@@ -1436,7 +1437,7 @@ a.web-img :hover {
         padding-top: 36px;
         height: 69vh;
         background-size: 100% auto;
-        background-position:fixed !important
+        background-attachment:fixed !important
     }
 
     #top-ilustration div, #top-ilustration figure {
@@ -1543,7 +1544,7 @@ a.web-img :hover {
 
     #web-oferta {
         background-size: 100%;
-        background-position:fixed !important
+        background-attachment:fixed !important
     }
 
     #web-oferta h2 {
@@ -1764,7 +1765,7 @@ a.web-img :hover {
 @media (max-width: 768px) {
     #glassed, #page-header.cover {
         background-size: 100% auto;
-        background-position:fixed !important
+        background-attachment:fixed !important
     }
 
     #page-header.cover {
@@ -1962,7 +1963,7 @@ a.web-img :hover {
         min-width:100%
     }
 
-    #coffe em u label {
+    #coffee em u label {
         margin:0 !important
     }
 }
