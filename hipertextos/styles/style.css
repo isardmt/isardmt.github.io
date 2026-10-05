@@ -54,7 +54,6 @@ ins, nav a:hover, nav label:hover, u {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-weight: 100;
-    font-family: "San Francisco"
 }
 
 ::-moz-selection {
@@ -168,7 +167,7 @@ h5 {
     font-size:1.6em
 }
 
-.units:after, [class * =units]:after, [class * =units]:before, h6 {
+.units:after, [class*=units]:after, [class*=units]:before, h6 {
     font-size:1em
 }
 
@@ -766,11 +765,16 @@ article footer, article header, article > div, aside footer, aside header, aside
     background-color:var(--color-black)
 }
 
-img, svg {
+img {
+    height: auto;
+    width: auto;
+}
+
+svg {
     fill: currentColor;
     stroke: transparent;
     height: auto;
-    width:auto
+    width: auto;
 }
 
 nav a img, nav a svg {
@@ -815,7 +819,7 @@ figure figcaption {
 
 figure div {
     clear: both;
-    margin-bottom: 1;
+    margin-bottom: 1px;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 0;
@@ -1105,7 +1109,7 @@ em a, em a:visited, em button, em label, nav a, nav label {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-    -ms-ocerflow-style:-ms-autohiding-scrollbar
+    -ms-overflow-style:-ms-autohiding-scrollbar
 }
 
 nav .menu label {
@@ -1886,7 +1890,7 @@ nav strong label mark {
     }
 }
 
-.cell, .thumb, [class * =cell], [class * =thumb] {
+.cell, .thumb, [class*=cell], [class*=thumb] {
     display: block;
     float: left;
     height: auto;
@@ -2033,7 +2037,7 @@ nav strong label mark {
     margin-left:91.66666666%
 }
 
-[class * =columns] {
+[class*=columns] {
     display: block;
     margin: 0;
     width:100%
@@ -2074,7 +2078,7 @@ nav strong label mark {
     }
 }
 
-.level, [class * =level] {
+.level, [class*=level] {
     display: block;
     height: auto;
     overflow: hidden;
@@ -2161,7 +2165,7 @@ nav strong label mark {
     height:320px
 }
 
-[class * =color], [class * =color] * {
+[class*=color], [class*=color] * {
     background-color: currentColor;
     border-color: currentColor;
     fill: currentColor;
@@ -2340,12 +2344,12 @@ nav strong label mark {
     stroke:transparent !important
 }
 
-.symbol:before, [class * =symbol]:before {
+.symbol:before, [class*=symbol]:before {
     display: inline;
     margin-right:.5em
 }
 
-[class * =symbol].button-icon:before {
+[class*=symbol].button-icon:before {
     margin:0
 }
 
