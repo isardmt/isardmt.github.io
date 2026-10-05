@@ -20,13 +20,13 @@ comments: true
 			<article id="post-video" class="post anm-scaleUpCenter delay-800">
 				<div id="entry" itemscope itemtype="http://schema.org/Article">
 					<figure id="post-img">
-						<a href="../{{ page.img }}" data-lightbox="roadtrip"><img src="../{{ page.img }}"></a>
+						<a href="{{ site.baseurl }}/{{ page.img }}" data-lightbox="roadtrip"><img src="{{ site.baseurl }}/{{ page.img }}"></a>
 					</figure>
 	    			{{ content }}
 				</div>
 				{% if page.bigger %}
 				<section id="big-post-img" class="cover">
-					<a href="../{{ page.img }}" data-lightbox="roadtrip"><img src="../{{ page.img }}"></a>
+					<a href="{{ site.baseurl }}/{{ page.img }}" data-lightbox="roadtrip"><img src="{{ site.baseurl }}/{{ page.img }}"></a>
 				</section>
 				{% endif %}
 				<em><hr></em>
