@@ -750,12 +750,18 @@ footer {
     border-top:var(--one-pixel) solid currentColor
 }
 
-#page-footer > div, #page-main > div, #page-nav > div, #page-section > div, #site-header > div, #site-nav > div, [id * =page-section] > div {
+#page-footer > div,
+#page-main > div,
+#page-nav > div,
+#page-section > div,
+#site-header > div,
+#site-nav > div,
+[id*=page-section] > div {
     margin: 0 auto;
     padding: 0 var(--sixteen-pixel);
     position: relative;
     width: 100%;
-    max-width:var(--page-size)
+    max-width: var(--page-size);
 }
 
 article footer, article header, article > div, aside footer, aside header, aside > div, dialog footer, dialog header, dialog > div, section footer, section header, section > div {
@@ -2990,17 +2996,4 @@ nav strong label mark {
 
 .symbol-zodiac-piscis:before {
     content: '\2653'
-}
-
-/* CENTRADO GLOBAL DEL CONTENIDO SIN MODIFICAR EL HTML */
-
-#page-main,
-#page-nav,
-#page-section,
-#site-header,
-#site-nav,
-#page-footer,
-[id*=page-section] {
-    padding-left: max(16px, calc((100% - var(--page-size)) / 2));
-    padding-right: max(16px, calc((100% - var(--page-size)) / 2));
 }
