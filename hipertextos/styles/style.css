@@ -57,14 +57,6 @@ ins, nav a:hover, nav label:hover, u {
     font-family: "San Francisco"
 }
 
-*, :focus, :hover, :hover:after, :hover:before, :target {
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-    transition:1s
-}
-
 ::-moz-selection {
     background-color: #d00;
     color:var(--color-white)
