@@ -8,7 +8,7 @@ galleria: true
 	{% include partials/header.html %}
     <main id="page-main" role="main" class="whitebackground">
 	<div id="layout" class="listed">
-    	<h3 class="anm-moveFromLeftFade delay-500"><u>Creació Digital</u></h3>
+    	<h3 class="anm-moveFromLeftFade delay-500"><u>Il·lustracions</u></h3>
 		<section class="anm-fadeIn delay-600">		
 	{% assign image_files = site.static_files | where: "image", true %}
 	{% for image in image_files %}
@@ -59,28 +59,4 @@ galleria: true
 			</section>
 			<hr>
 	</div><!-- /#Layout -->
-	<div id="paints" class="listed">
-    			<h3 class="anm-moveFromLeftFade delay-500"><u>Dibuix i Pintura</u></h3>
-			<section class="anm-fadeIn delay-900 slow">					
-  <article>
-	<a href="{{ site.baseurl }}/assets/paint/paint1.jpg" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/paint/paint1.jpg" alt="Retrat de noia jove a l'oli"></a>
-  </article>
-  <article>
-    <a href="{{ site.baseurl }}/assets/paint/paint2.jpg" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/paint/paint2.jpg" alt="Retrat de señora gran a l'oli"></a>
-  </article>
-  <article>
-    <a href="{{ site.baseurl }}/assets/paint/paint3.jpg" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/paint/paint3.jpg" alt="Retrat de señora gran a l'oli"></a>
-  </article>
-  <article>
-    <a href="{{ site.baseurl }}/assets/paint/paint4.jpg" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/paint/paint4.jpg" alt="Retrat d'Enric Ortuño"></a>
-  </article>
-  <article>
-    <a href="{{ site.baseurl }}/assets/paint/paint5.jpg" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/paint/paint5.jpg" alt="Pintura abstracte"></a>
-  </article>
-    <article>
-    <a href="{{ site.baseurl }}/assets/paint/paint6.jpg" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/paint/paint6.jpg" alt="Pintura abstracte"></a>
-  </article>
-			</section>
-			<hr>
-	</div><!-- /#Paints -->
 	</main>
