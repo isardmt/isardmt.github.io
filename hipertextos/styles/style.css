@@ -86,7 +86,8 @@ body {
 
 @font-face {
     font-family: "San Francisco";
-    font-weight:100
+    font-weight:100;
+    src: url("https://isardmiralles.com/hipertextos/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff")
 }
 
 @font-face {
@@ -942,7 +943,7 @@ em a, em a:visited, em button, em label, nav a, nav label {
     --color-translucentblack: rgba(0, 0, 0, .5);
     --color-translucentwhite: rgba(255, 255, 255, .5);
     --color-background: rgba(0, 0, 0, 1);
-    --font-default: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    --font-default: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
     --font-code: Monaco, Menlo, Consolas, 'Courier New', monospace
 }
 
