@@ -24,6 +24,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {% if page.url == "/" %}
 <link rel="stylesheet" href="{{ site.baseurl }}/hipertextos/styles/sheetslider.min.css" />
 {% endif %}
+	{% if page.comments %}
+	  <link rel="stylesheet" href="{{ site.baseurl }}/hipertextos/styles/adding-blog.css" />
+	  <link rel="stylesheet" href="{{ site.baseurl }}/hipertextos/styles/lightbox3.css" />
+	{% endif %}
 	<link rel="stylesheet" href="{{ site.baseurl }}/hipertextos/styles/anime.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/hipertextos/styles/aos.css" />
 	{% if page.parallax %}<script src="{{ site.baseurl }}/hipertextos/js/jquery-latest.js"></script>
@@ -57,10 +61,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	 }
   	</script>
   	{% endif %}
-	{% if page.comments %}
-	  <link rel="stylesheet" href="{{ site.baseurl }}/hipertextos/styles/adding-blog.css" />
-	  <link rel="stylesheet" href="{{ site.baseurl }}/hipertextos/css/lightbox3.css" />
-	{% endif %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     {% seo %}
